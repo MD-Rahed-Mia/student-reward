@@ -13,15 +13,15 @@ const menuIcon = document.querySelector('#menu-icon');
 //setup menu function
 function menuAppear() {
 
-    if (menuContainer.classList.contains('right-0')) {
-        menuContainer.classList.remove('right-0');
+    if (menuContainer.classList.contains('right-2')) {
+        menuContainer.classList.remove('right-2');
         menuIcon.classList.remove('fa-xmark')
         menuIcon.classList.add('fa-bars');
 
         document.body.style.maxHeight = "auto";
         document.body.style.overflowY = 'scroll';
     } else {
-        menuContainer.classList.add('right-0');
+        menuContainer.classList.add('right-2');
         menuIcon.classList.add('fa-xmark');
         menuIcon.classList.remove('fa-bars');
 
